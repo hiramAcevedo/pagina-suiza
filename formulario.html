@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prepara tus Maletas</title>
+    <meta name="author" content="Hiram Agustín Acevedo López">
+    <meta name="description" content="Formulario de contacto">
+    <link rel="icon" type="image/jpg" href="img/suizaicon.png">
+
+    <style>
+        body {
+            background-color:#fff7f3;
+            margin: 0;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        header {
+            width: 100%;
+            color: #ffffff;
+            background-color: #281713;
+            display: inline-block;
+        }
+
+        h1 {
+            padding-left: 20px;
+            display: inline-block;
+            vertical-align:top;
+            font-size: 35px;
+        }
+
+        h1 a:hover {
+            color: #f90007;
+        }
+
+        #banderaTitulo {
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            top: 26px;
+            left: 205px;
+        }
+
+        .navandBoton {
+            float: right;
+        }
+
+        ul.navHeader, .botonesRegistro {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: inline-block;
+        }
+
+        .botonesRegistro {
+            background-color: #BEA6A0;
+        }
+
+        ul.navHeader li {
+            display: inline-block;
+            padding: 36px 20px;
+            font-size: 20px;
+        }
+
+        .botonesRegistro li {
+            display:inline-block;
+            padding: 36px 20px;
+            font-size: 20px;
+        }
+
+        .ingresaRegistro:hover {
+            background-color:#f90007;
+        }
+
+        a {
+            color:#fff7f3;
+            text-decoration: none;
+        }
+        
+        li a:hover {
+            color:#f90007;
+        }
+        
+        .formulariolink {
+            color: #f90007;
+        }
+        
+        h2 {
+            color: #281713;
+            font-size: 33px;
+            text-align: center;
+        }
+        
+        p {
+            color:#281713;
+            font-size: 20px;
+        }
+        
+        .bloqueCentro {
+            width: 72%;
+            margin: 0 auto;
+        }
+
+        .imgForm {
+            width: 38%;
+            margin: 30px 10px 0;
+            float: right;
+        }
+
+        footer {
+            background-color: #281713;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        h4 {
+            color: #fff7f3;
+            font-size: 20px;
+        }
+
+        nav {
+            padding: 10px 0;
+        }
+
+        .referenciasP {
+            color: #fff7f3;
+            font-size: 15px;
+        }
+
+        .navLinks {
+            font-size: 18px;
+            margin: 10px 15px;
+        }
+
+        .navLinks:hover {
+            color:#f90007;
+        }
+
+        form {
+            margin: 40px 0;
+        }
+
+        form label, form legend {
+            display: block;
+            font-size: 20px;
+            margin: 0 0 10px;
+        }
+
+        .input-padron {
+            display: block;
+            margin: 0 0 20px;
+            padding: 10px 25px;
+            width: 50%;
+        }
+
+        .checkbox {
+            margin: 20px 0;
+        }
+
+        .submitButton {
+            text-align: center;
+        }
+
+        .enviar {
+            width: 40%;
+            padding: 15px 0;
+            margin: 40px 0 0 0;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+            background: #281713;
+            border: none;
+            border-radius: 5px;
+            transition: 1s all;
+            cursor: pointer;
+        }
+
+        .enviar:hover {
+            background: #f90007;
+            transform:scale(1.05);
+        }
+
+        .tabla-precios table {
+            width: 72%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            color: #fff7f3;
+        }
+
+        .tabla-precios th, .tabla-precios td {
+            text-align: left;
+            padding: 8px;
+        }
+
+        .tabla-precios tbody tr {
+            border-bottom: 1px solid #281713;
+        }
+
+        .tabla-precios thead {
+            background-color: #281713;
+        }
+
+        td {
+            color: #281713;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        
+        <h1><a href="index.html">Visita Suiza</a></h1>
+
+        <img src="img/suizaicon.png" alt="Bandera suiza" id="banderaTitulo">
+        
+        <div class="navandBoton">
+        <ul class="navHeader">
+            <li><a href="descubre-ciudad.html">Descubre Suiza</a></li>
+            <li><a href="que-visitar.html">Destinos</a></li>
+            <li><a href="historia.html">Historia</a></li>
+            <li><a href="testimonios.html">Testimonios</a></li>
+            <li><a href="formulario.html" class="formulariolink">Contáctenos</a></li>
+        </ul>
+        
+        <ul class="botonesRegistro">
+            <li class="ingresaRegistro">Ingresa</li>
+            <li class="ingresaRegistro">Regístrate</li>
+        </ul>
+        </div>
+
+    </header>
+
+    <main>
+
+    <h2>Escríbenos somos tu mejor solución para viajar a Suiza </h2>
+
+    <div class="bloqueCentro">
+    <p>Bienvenido a nuestro formulario de contacto. Apreciamos tu interés en conectarte con nosotros. Por favor, rellena los campos a continuación con tu información de contacto y cualquier otro detalle que consideres relevante. Nos esforzamos por responder a todas las consultas de manera oportuna y estamos aquí para ayudarte con tus necesidades. ¡Gracias por tomarte el tiempo de alcanzarnos!</p>
+    </div>
+
+    <h2>Aquí nuestra lista de precios</h2>
+
+    <div class="tabla-precios">
+        <table>
+            <thead>
+                <tr>
+                    <th>Paquete</th>
+                    <th>Descripción</th>
+                    <th>Precio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Básico</td>
+                    <td>7 días, incluye alojamiento y tours a las principales ciudades.</td>
+                    <td>$1,500</td>
+                </tr>
+                <tr>
+                    <td>Estándar</td>
+                    <td>10 días, incluye alojamiento, tours y transporte interno.</td>
+                    <td>$2,000</td>
+                </tr>
+                <tr>
+                    <td>Premium</td>
+                    <td>14 días, todo incluido más actividades exclusivas.</td>
+                    <td>$2,800</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h2>Rellena el formulario</h2>
+
+    <div class="bloqueCentro">
+    <form>
+        <img src="img/formimg.jpg" alt="vaca suiza" class="imgForm">
+
+        <label for="nombreapellido">Nombre y Apellido</label>
+        <input type="text" id="nombreapellido" class="input-padron" required>
+
+        <label for="correoelectronico">Correo Electrónico</label>
+        <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
+
+        <label for="telefono">Teléfono</label>
+        <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX">
+
+        <label for="mensaje">Mensaje</label>
+        <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>
+
+        <fieldset>
+            <legend>¿Cómo le gustaría que lo contactemos?</legend>
+
+            <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+            
+            
+            <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Teléfono</label>
+            
+
+            <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+            
+        </fieldset>
+
+        <fieldset>
+        <legend>¿En cuál horario prefiere ser atendido?</legend>
+        <select>
+            <option>Mañana</option>
+            <option>Tarde</option>
+            <option>Noche</option>
+        </select>
+        </fieldset>
+
+        <label class="checkbox"><input type="checkbox" checked>¿Le gustaría recibir novedades de Visita Suiza?</label>
+        
+        <div class="submitButton">
+        <input type="submit" value="Enviar formulario" class="enviar">
+        </div>
+    </form>
+    </div>
+    
+    </main>
+
+    <footer>
+        <h4>Referencias</h4>
+
+
+        <p class="referenciasP">Wikipedia, la enciclopedia libre. (n.d.). Historia de Suiza. Recuperado de https://es.wikipedia.org/wiki/Historia_de_Suiza</p>
+        <p class="referenciasP">Departamento Federal de Asuntos Exteriores de Suiza. (n.d.). Historia de Suiza. Recuperado de https://www.eda.admin.ch</p>
+        <p class="referenciasP">Martí, M. (13 de diciembre de 2012). Breve historia de Suiza. Sobre Suiza. Recuperado de https://sobresuiza.com/2012/12/13/historia-de-suiza/</p>
+        <p class="referenciasP">Hablemos de Culturas. (n.d.). Cultura suiza: características, costumbres, y todo lo que necesita saber. Recuperado de https://hablemosdeculturas.com/cultura-suiza/</p>
+        <p class="referenciasP">El Viajero Feliz. (n.d.). 10 ciudades de Suiza imprescindibles ¡Conócelas!. Recuperado de https://elviajerofeliz.com/ciudades-de-suiza/</p>
+        <p class="referenciasP">Suiza Turismo. (n.d.). Viajes, vacaciones y congresos. Recuperado de https://www.myswitzerland.com/es/</p>
+
+        <hr>
+
+        <nav>
+            <a class="navLinks" href="index.html">Visita Suiza </a>
+            <a class="navLinks" href="descubre-ciudad.html">Descubre Suiza</a>
+            <a class="navLinks" href="que-visitar.html">Destinos</a>
+            <a class="navLinks" href="historia.html">Historia</a>
+            <a class="navLinks" href="testimonios.html">Testimonios</a>
+            <a class="navLinks" href="formulario.html">Contáctenos</a>
+        </nav>
+
+    </footer>
+    
+</body>
+</html>
